@@ -7,6 +7,7 @@ body{
 }
 
 .main{
+	box-sizing: border-box;
 	max-width: 70%;
 	box-sizing: border-box;
 	margin: 0 auto;
@@ -37,7 +38,6 @@ body{
 	/*background: linear-gradient(45deg, #BADB63 0%, #31C5A6 100%);*/
 	text-align: center;
 	width: 45%;
-	box-sizing: border-box;
 	color: White;
 	font-size: 1.8em;
 }
@@ -58,7 +58,22 @@ body{
 	border-bottom: 7px #c3c3c3 solid;
 }
 
+.border-bottom-2 img{
+	width: 100px;
+	height: 100px;
+	margin-left: 80%;
+	margin-top: 27px;
+	opacity: 0.6;
+}
+
 .footer{
 	background: #3f48cc;
 	height: 24%;
+}
+
+.footer p{
+	margin: 9% auto;
+	padding-left: 85%;
+	color: White;
+	font-size: 1.4em;
 }
