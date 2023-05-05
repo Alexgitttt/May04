@@ -1,5 +1,5 @@
 *{
-	
+	font-family: Roboto;
 }
 
 body{
@@ -27,6 +27,19 @@ body{
 	background: #00a2e8;
 	height: 24%;
 	border-bottom: 7px #fff200 solid; 
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.border-bottom-1 p {
+	margin: auto;
+	/*background: linear-gradient(45deg, #BADB63 0%, #31C5A6 100%);*/
+	text-align: center;
+	width: 45%;
+	box-sizing: border-box;
+	color: White;
+	font-size: 1.8em;
 }
 
 .image-bar {
